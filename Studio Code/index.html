@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<title>The Man Cave</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/Studio2.jpg" style="width:40%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img align=left src="images/Logo.jpg" alt="photo of logo"> 
+    <img align="right" src="images/Logo.jpg" width="500" height="500" >  
+    <h1 class="w3-jumbo"><span class="w3-hide-small">The</span> Man Cave.</h1>
+    <p>Nothing, but vibes.</p>
+    <img src="images/TheManCave.jpg" alt="photo of studio">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Studio Opens Soon</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am planning to open up one half of my recording studio towards December and January 2022. I picked up great skills and can be a useful ear in the studio becasue I understand both sides, the artist and the recording engineer. I am looking forward to this becasue music is my main priority right now and nothing excites me more than fully being in that environment. From meeting new people to hearing new sounds. Nothing, but vibes!
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Recording Artist</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+    </div>
+    <p class="w3-wide">Audio Engineer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Mentor For New Recording Artist</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:30%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">200+</span><br>
+        Songs Engineered
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">15+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">300+</span><br>
+        Songs I Wrote/Recorded
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+        <!-- Testimonials -->
+        <h3 class="w3-padding-24 w3-text-light-grey"> The Man Cave</h3>  
+        <ol>
+          <li>Pro Tools:</li>
+          <p> Pro Tools is kind of the music's world go to music software and one of the most simple, but useful DAWs. It can be used to make beats, record, and more.</p>
+          <li>Guaranteed Mix:</li>
+          <p> From plugins from the compressor, to the equalizer, to auto-tune, you'll get an effective and professional sound. There is a simple option that I'll use for short sessions, which is apart of my Pro Tools template. For longer session the mix will be better because there is more plugins that I can dive into like the D-Esser and more. </p>
+          <li>Mastering Services:</li>
+          <p>Although I do this on my own time and rarely in the session, this is something I am still learning. I feel as I am a good point to provude this to future clients and since I am still learning, I'll start of with this service free to help me and the client.</p>
+          <li>Auto-Tune Access:</li>
+          <p> This is the pitch shift that I use. For people who are interested, this is one of the cheapest but reliable auto-tunes from Antares. There are over thirty different notes to take your vocals and melodies to the next level. It fixes anytime your voice goes to pitching and put them notes right where they supposed to be to make your vocals sound full and melodic.</p>
+          <li>Focusrite Scarlett 2i2:</li>
+          <p>The Focusrite Scarlett 2i2 3rd Gen is the interface I use. It is very useful, it can connect to two mics, two pairs of headphones, and speakers. Everything on it is simple and very self explanatory.</p>
+          <li>Additions:</li>
+          <p>Pop Filter, Microphone Stand, XLR Cables</p>
+      </ol>
+      <!-- End About Section -->
+      </div>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">1 Hr - $20</li>
+          <li class="w3-padding-16">2 Hrs - $40</li>
+          <li class="w3-padding-16">3 Hrs - $50</li>
+          <li class="w3-padding-16">4 Hrs - $65</li>
+          <li class="w3-padding-16">5 Hrs - $80</li>
+          <li class="w3-padding-16">
+
+          </li>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Nothing, but vibes.</h2>
+      <p> My goal is to make everything people friendly and to make sure everyone is comfortable and doing something besides making music. I been in recording studios before and it was only about music, though nothing is wrong with that because that is what you came for. An addition I am having are gaming systems and a basketball goal in thee back because I know it will make time go by for the people who come, but doesn't makes music. I once been in a 5-6 hour session with a group of my friends that make music and we had a great time because we had a balance of making music, gaming and a little bit of partying. That is my goal for every recording session of mines and I know that will draw people towards my studio. Nothing, but vibes.</p>
+      <h3>About Me</h3>
+      <p>I've been around music forever. Since I was around the age of 6-7 I knew that I always wanted to be apart of the process of making music. I used to sit in front of my computer and just watch music videos of artist like Kanye West and tried to remake some of my favorite artist songs. I joined my elementary school band and was all over the place becasue I wanted to do everything. I played melophone for 3 years and was apart of the drill team for two years until I went to high school. Once I gotten to high school, I started off with drill team again, but it didn't feel the same as it did in middle school, so I started to play cymbals and that carried on my eleventh grade year. Unfortanately, I couldn't do it my senior year because a medical condition, but that made me gravitate to the side of studio/recording music. I look at it as a blessing in disguise. Since I made that decision I've been progressing real good and found something that I love and I am excited for the future.</p>
+
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/ProTools.jpg" alt="photo of pro tools">
+        <img src="images/Focusrite.jpg" alt="photo of interface">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">My Work</h2>
+     <li> <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/im-not-a-rapper/1579365599"></iframe> </li>">.
+     <li><iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/dedicated-to-you/1576227094"></iframe></li>">.
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/ug5Mi_CZvRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/counted-out-2/1599405908"></iframe>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> New Orleans, LA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 504 595 9675</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: derfleming19@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Email or text me:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.instagram.com/decky.17/">
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.snapchat.com/add/decky.17?share_id=NkNCNzQ2&locale=en_US">
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.twitter.com/ddecky17">
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+    </a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
